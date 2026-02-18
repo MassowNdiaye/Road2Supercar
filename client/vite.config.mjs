@@ -1,16 +1,16 @@
-import { defineConfig } from "vite"; // ✅ must be here
+import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { resolve } from "path";
 
 export default defineConfig({
-  base: "/", // ensures correct paths in production
+  base: "/",
   plugins: [react()],
   build: {
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
-        navbar: resolve(__dirname, "src/components/Navbar.jsx"),
-        footer: resolve(__dirname, "src/components/Footer.jsx"),
+        navbarLoader: resolve(__dirname, "src/loaders/navbarLoader.jsx"),
+        footerLoader: resolve(__dirname, "src/loaders/footerLoader.jsx"),
       },
       output: {
         entryFileNames: "[name].js",
