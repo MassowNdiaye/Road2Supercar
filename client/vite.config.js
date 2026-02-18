@@ -4,8 +4,8 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        navbar: resolve(__dirname, "src/components/navbar.jsx"),
-        footer: resolve(__dirname, "src/components/footer.jsx"),
+        navbar: resolve(__dirname, "src/components/Navbar.jsx"),
+        footer: resolve(__dirname, "src/components/Footer.jsx"),
         main: resolve(__dirname, "index.html"),
       },
       output: {
