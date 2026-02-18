@@ -1,5 +1,4 @@
 // Connecting SQL to the project
-
 import mysql from "mysql2/promise";
 import dotenv from "dotenv";
 
