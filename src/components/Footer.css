@@ -1,0 +1,96 @@
+/* ========== PAGE SETTINGS  ========== */
+:root {
+  --bg-color: #f2f2f2; /* Background */
+  --card-bg: #e5e5e5; /* Card backgrounds */
+  --accent: #ffcc00; /* Yellow accent */
+  --text-main: #111111; /* Black text */
+  --text-sub: #555555; /* Subtext gray */
+  --tras-bg: rgba(157, 157, 157, 0.3);
+  --shadow: rgba(0, 0, 0, 0.8);
+}
+
+/* ========== FOOTER ========== */
+.footer {
+  background: var(--bg-color);
+  padding: 10px 40px;
+  text-align: center;
+}
+
+.links {
+  display: block;
+  text-align: center;
+}
+
+.foot-links ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.foot-links li:first-child {
+  font-weight: bold;
+  margin-right: 10px;
+  color: var(--text-sub);
+}
+
+.foot-links a {
+  color: var(--text-main);
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.foot-links a:hover {
+  color: var(--text-sub);
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  color: var(--text-main);
+  margin: 10px 0;
+}
+
+.social-links ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 30px;
+  gap: 30px;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.social-links a {
+  color: var(--text-main);
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: var(--text-sub);
+}
+
+/* ========== BREAKPOINT 1100px ========== */
+@media (min-width: 1100px) {
+  .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+
+  .foot-links ul {
+    justify-content: flex-start;
+  }
+
+  footer p {
+    justify-content: center;
+  }
+
+  .social-links ul {
+    justify-content: flex-end;
+  }
+}

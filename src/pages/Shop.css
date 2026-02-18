@@ -1,0 +1,71 @@
+/* ========== PAGE SETTINGS  ========== */
+:root {
+  --bg-color: #f2f2f2; /* Background */
+  --card-bg: #e5e5e5; /* Card backgrounds */
+  --accent: #ffcc00; /* Yellow accent */
+  --text-main: #111111; /* Black text */
+  --text-sub: #555555; /* Subtext gray */
+  --tras-bg: rgba(157, 157, 157, 0.3);
+  --shadow: rgba(0, 0, 0, 0.8);
+}
+
+.shop-container {
+  margin-top: 70px;
+}
+
+.title {
+  color: var(--text-main);
+  margin: 100px 0px 0px 30px;
+  font-weight: 500;
+}
+
+.sub-title {
+  color: var(--text-sub);
+  margin: 5px 0px 20px 30px;
+  font-size: 18px;
+}
+
+.vehicle-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+/* Page Layout */
+.inventory-layout {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.inventory-layout > .Filter {
+  flex: 0 0 250px;
+}
+
+.vehicle-section {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .inventory-layout {
+    flex-direction: column;
+  }
+
+  .inventory-layout > .Filter {
+    width: 100%;
+  }
+}
+
+/* 2 cards for tablets */
+@media (min-width: 1200px) {
+  .vehicle-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 3 cards for desktops */
+@media (min-width: 1400px) {
+  .vehicle-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

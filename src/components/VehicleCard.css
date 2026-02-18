@@ -1,0 +1,40 @@
+/* ========== PAGE SETTINGS  ========== */
+:root {
+  --bg-color: #f2f2f2; /* Background */
+  --card-bg: #e5e5e5; /* Card backgrounds */
+  --accent: #ffcc00; /* Yellow accent */
+  --text-main: #111111; /* Black text */
+  --text-sub: #555555; /* Subtext gray */
+  --tras-bg: rgba(157, 157, 157, 0.3);
+  --shadow: rgba(0, 0, 0, 0.8);
+}
+
+.vehicle-card {
+  background-color: var(--bg-color);
+  margin: 20px;
+  border: 2px solid var(--card-bg);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.vehicle-card img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.vehicle-info {
+  padding: 15px;
+}
+
+.vehicle-info h3 {
+  margin: 0;
+  color: var(--text-main);
+}
+
+.vehicle-info p {
+  margin: 5px 0;
+  color: var(--text-sub);
+}
+

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="../dist/navbar.css" />
+    <link rel="stylesheet" href="../dist/footer.css" />
+    <title>Road2Supercars | Contact Page</title>
+  </head>
+  <body>
+    <!-- NAVBAR-->
+    <div id="navbar-root"></div>
+
+    <section>
+      <!-- Banner Image -->
+      <div class="banner-image">
+        <img
+          src="./media/contact/banner_grid.png"
+          alt="banner_image"
+          width="100%"
+        />
+      </div>
+    </section>
+
+    <!-- Title -->
+    <div class="title">
+      <h2>Contac Us</h2>
+    </div>
+
+    <main class="contact">
+      <!-- FORM -->
+      <div class="container">
+        <form action="action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+            required
+          />
+
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+            required
+          />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+            placeholder="Your email.."
+            required
+          />
+
+          <label for="phone">Phone</label>
+          <input
+            type="text"
+            id="phone"
+            name="phone"
+            placeholder="000-000-0000"
+            required
+            pattern="[0-9]{10}"
+          />
+
+          <label for="vehicle">What car are you interested in:</label>
+          <select id="vehicle" name="vehicle">
+            <option value="N/A">N/A</option>
+            <option value="Lamborghini_Huracan">Lamborghini Huracan</option>
+            <option value="Lamborghini_Aventador">Lamborghini Aventador</option>
+            <option value="Ferrari_812_Superfast">Ferrari 812 Superfast</option>
+            <option value="Ferrari_SF90">Ferrari SF90</option>
+            <option value="McLaren_765LT">McLaren 765LT</option>
+            <option value="Porsche_911">Porsche 911 gt3 RS</option>
+            <option value="Bugatti_Chiron">Bugatti Chiron</option>
+          </select>
+
+          <label for="subject">How can we help you:</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </main>
+    <!-- FOOTER -->
+    <div id="footer-root"></div>
+  </body>
+  <!-- nav.js - footer.js-->
+  <script type="module" src="../dist/navbar.js"></script>
+  <script type="module" src="../dist/footer.js"></script>
+</html>
