@@ -1,16 +1,51 @@
-# React + Vite
+# Road2Supercar Ecommerce 🚗💨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Road2Supercar is a full-stack ecommerce application showcasing high-end supercars.  
+This project demonstrates a modern cloud-based architecture using:
 
-Currently, two official plugins are available:
+- **Frontend:** AWS Amplify  
+- **Backend:** Render (Node.js + Express)  
+- **Database:** AWS RDS (MySQL)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Application:**  
+https://main.d2yjlxpunj01x4.amplifyapp.com/homepage.html
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Ecommerce Image](Screenshot.png)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Project Overview
+
+This application is built using a **component-based architecture** with Vite (React) to render products dynamically from a real database instead of static JSON.
+
+---
+
+## 🏗️ Tech Stack
+
+### Frontend
+- React (Vite)
+- Component-based structure
+- Hosted on AWS Amplify
+
+### Backend
+- Node.js
+- Express.js
+- Hosted on Render
+
+### Database
+- MySQL
+- Hosted on AWS RDS
+
+---
+
+## 🚀 Features
+
+- Dynamic product rendering from MySQL database
+- Working product filter powered by database queries
+- Fully deployed cloud architecture
+- Responsive design (mobile, tablet, desktop)
+
+---
+
+
