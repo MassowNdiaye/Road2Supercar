@@ -11,7 +11,7 @@ This project demonstrates a modern cloud-based architecture using:
 https://main.d2yjlxpunj01x4.amplifyapp.com/homepage.html
 
 
-![Ecommerce Image](Screenshot.png)
+![Ecommerce Image](../Screenshot.png)
 
 ---
 
