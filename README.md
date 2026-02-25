@@ -45,4 +45,7 @@ This application is built using a **component-based architecture** with Vite (Re
 
 ---
 
+## License
+This project is licensed under MIT License - Copyright (c) 2026 Elhadji Massow Ndiaye
+
 
