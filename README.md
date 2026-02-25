@@ -10,14 +10,11 @@ This project demonstrates a modern cloud-based architecture using:
 🔗 **Live Application:**  
 https://main.d2yjlxpunj01x4.amplifyapp.com/homepage.html
 
-
-![Ecommerce Image](Screenshot.png)
-
----
-
 ## 📌 Project Overview
 
 This application is built using a **component-based architecture** with Vite (React) to render products dynamically from a real database instead of static JSON.
+
+![Ecommerce Image](Screenshot.png)
 
 ---
 
